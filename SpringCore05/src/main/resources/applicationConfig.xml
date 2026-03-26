@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- <bean id="Java" class="service.Java"/>
+    <bean id="sb" class="service.SpringBoot" primary="true"/>
+
+    <bean id="telusko" class="main.Telusko" autowire="byType"/> 
+    THIS IS BYTYPE WHERE IT DEFAULT USE SETTER INJECTION AND FOR THE CLASS 
+    WHICH I WANTED TO INJECTED IN I USED PRIMARY-->
+    
+    <!-- <bean id="course" class="service.Java"/>
+    <bean id="sb" class="service.SpringBoot"/>
+
+    <bean id="telusko" class="main.Telusko" autowire="byName"/> 
+    HERE BYNAME IS USED THE ID OF THE CLASS WHICHI WANT THE INJECTION OF IS
+    SAME NAMED AS THE THE CLASS WHERE INJECTION IS WANTED-->
+    
+    <!-- <bean id="Java" class="service.Java" primary="true"/>
+    <bean id="sb" class="service.SpringBoot"/>
+
+    <bean id="telusko" class="main.Telusko" autowire="constructor"/>
+    HERE IF YOU WANTED TO USE CONSTRUCTOR INJECTION WE NEED TO DO THIS -->
+    
+
+</beans>
