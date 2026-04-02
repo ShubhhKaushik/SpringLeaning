@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+<bean id="emp1"  class="service.Employee">
+<constructor-arg value="01"/>
+<constructor-arg value="Shubh"/>
+<constructor-arg value="45455.45"/>
+<constructor-arg value="Najibabad"/>
+</bean>
+<bean id="emp2" class="service.Employee">
+<constructor-arg index="0" value="02"/>
+<constructor-arg index="2" value="54544.54"/>
+<constructor-arg index="1" value="Shivangi"/>
+<constructor-arg index="3" value="Prayajraj"/>
+
+
+
+</bean>
+</beans>
